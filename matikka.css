@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    background-color: #FFCE54;
+    font-variant: small-caps;
+    
+}
+
+html, body, h2, .tausta {
+    background-color: #FFCE54;
+    margin: 5px;
+}
