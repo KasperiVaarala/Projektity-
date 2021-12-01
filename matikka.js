@@ -24,10 +24,20 @@ document.getElementById("question5").innerHTML = nro5 + " " + "*" + " " + nro6;
 var answer5 = nro5 * nro6;
 
 function calc(){
-    let rightAnswer1 = document.getElementById("answer1").value
+    let rightAnswer1 = document.getElementById("answer1").value;
     if (rightAnswer1 == answer1) {
-         console.log ("Vähän oot hyvä")
+        document.getElementById("aOne").innerHTML = "KOMEE JA HYVÄ LASKEEN"
     } else {
-        console.log ("oot tyhmä")
+        document.getElementById("aOne").innerHTML = "oot tyhmä oikee vastaus oli " + answer1;   
     }
-}
+    return
+    
+    let rightAnswer2 = document.getElementById("answer2").value;
+    if (rightAnswer2 == answer2){
+        document.getElementById("aTwo").innerHTML =  "KOMEE JA HYVÄ LASKEEN"
+    } else {
+        document.getElementById("aTwo").innerHTML =  "oot tyhmä oikee vastaus oli " + answer2;
+        
+    }
+ }
+
