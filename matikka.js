@@ -23,26 +23,32 @@ var answer4 = nro4 * nro1;
 document.getElementById("question5").innerHTML = nro5 + " " + "*" + " " + nro6;
 var answer5 = nro5 * nro6;
 
-function calc(){
+function calc1(){
     let rightAnswer1 = document.getElementById("answer1").value;
     if (rightAnswer1 == answer1) {
         document.getElementById("aOne").innerHTML = "KOMEE JA HYVÄ LASKEEN"
     } else {
         document.getElementById("aOne").innerHTML = "oot tyhmä oikee vastaus oli " + answer1;  
     }
-
+}
+    function calc2(){
     let rightAnswer2 = document.getElementById("answer2").value;
     if (rightAnswer2 == answer2){
         document.getElementById("aTwo").innerHTML =  "KOMEE JA HYVÄ LASKEEN"
     } else {
         document.getElementById("aTwo").innerHTML =  "oot tyhmä oikee vastaus oli " + answer2   
     }
+}
+function calc3(){
     let rightAnswer3 = document.getElementById("answer3").value;
     if (rightAnswer3 == answer3) {
         document.getElementById("aThree").innerHTML = "KOMEE JA HYVÄ LASKEEN"
     } else {
         document.getElementById("aThree").innerHTML = "oot tyhmä oikee vastaus oli " + answer3;
     }
+}
+
+    function calc4(){
 
     let rightAnswer4 = document.getElementById("answer4").value;
     if (rightAnswer4 == answer4) {
@@ -50,6 +56,9 @@ function calc(){
     } else {
         document.getElementById("aFour").innerHTML = "oot tyhmä oikee vastaus oli " + answer4;   
     }
+}
+    
+    function calc5(){
     let rightAnswer5 = document.getElementById("answer5").value;
     if (rightAnswer5 == answer5) {
         document.getElementById("aFive").innerHTML = "KOMEE JA HYVÄ LASKEEN"
