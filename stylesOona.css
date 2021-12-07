@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    background: #ED5564;
+    margin: 0;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    background: #ED5564;
+}
