@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    background: #fec82b;
+    background: #ffc107;
     margin: 0;
 }
 
@@ -8,8 +8,8 @@ html, body {
     margin:0;
     padding:0;
     background-image: url("school-supplies-5541099.jpg");
-    background-color: #fec82b;
-    background-size: 95%;
+    background-color: #ffc107;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
