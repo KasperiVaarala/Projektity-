@@ -132,7 +132,7 @@ function handleNextQuestion() {
     unCheckRadioButtons()
     //delays next question displaying for a second
     setTimeout(() => {
-        if (indexNumber <= 9) {
+        if (indexNumber <= 4) {
             NextQuestion(indexNumber)
         }
         else {
@@ -165,15 +165,15 @@ function handleEndGame() {
 
     // condition check for player remark and remark color
     if (playerScore <= 1) {
-        remark = "Bad Grades, Keep Practicing."
+        remark = "Heikko tulos, jatka harjoittelua."
         remarkColor = "red"
     }
     else if (playerScore >= 2 && playerScore < 3) {
-        remark = "Average Grades, You can do better."
+        remark = "Keskiverto tulos, pystyt parempaan!"
         remarkColor = "orange"
     }
     else if (playerScore >= 4) {
-        remark = "Excellent, Keep the good work going."
+        remark = "Mahtavaa, jatka samaan malliin!"
         remarkColor = "green"
     }
     const playerGrade = (playerScore / 5) * 100
