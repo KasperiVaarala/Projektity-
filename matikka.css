@@ -1,11 +1,20 @@
-h1 {
-    text-align: center;
-}
-
 html, body, h2, h1, .tausta {
     background-color: #4FC1E8;
     margin:0;
     padding:0;
 }
 
+h1 {
+    text-align: center;
+}
 
+.tausta{
+    float: left;
+  width: 30%;
+}
+
+aside{
+    float: left;
+  width: 70%;
+}
+  

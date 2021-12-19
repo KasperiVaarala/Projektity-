@@ -26,44 +26,45 @@ var answer5 = nro5 * nro6;
 function calc1(){
     let rightAnswer1 = document.getElementById("answer1").value;
     if (rightAnswer1 == answer1) {
-        document.getElementById("aOne").innerHTML = "KOMEE JA HYVÄ LASKEEN"
+        document.getElementById("aOne").innerHTML =  " <h4> tehtävä 1: KOMEE JA HYVÄ LASKEEN </h4>"
     } else {
-        document.getElementById("aOne").innerHTML = "oot tyhmä oikee vastaus oli " + answer1;  
+        document.getElementById("aOne").innerHTML = " <h4> tehtävä 1: oot tyhmä oikee vastaus oli " + answer1 + "</h4>";  
     }
 }
     function calc2(){
     let rightAnswer2 = document.getElementById("answer2").value;
     if (rightAnswer2 == answer2){
-        document.getElementById("aTwo").innerHTML =  "KOMEE JA HYVÄ LASKEEN"
+        document.getElementById("aTwo").innerHTML =  " <h4> tehtävä 2: KOMEE JA HYVÄ LASKEEN </h4>"
     } else {
-        document.getElementById("aTwo").innerHTML =  "oot tyhmä oikee vastaus oli " + answer2   
+        document.getElementById("aTwo").innerHTML =  " <h4> tehtävä 2: oot tyhmä oikee vastaus oli " + answer2 + "</h4>";   
     }
 }
 function calc3(){
     let rightAnswer3 = document.getElementById("answer3").value;
     if (rightAnswer3 == answer3) {
-        document.getElementById("aThree").innerHTML = "KOMEE JA HYVÄ LASKEEN"
+        document.getElementById("aThree").innerHTML =  " <h4> tehtävä 3: KOMEE JA HYVÄ LASKEEN </h4>"
     } else {
-        document.getElementById("aThree").innerHTML = "oot tyhmä oikee vastaus oli " + answer3;
+        document.getElementById("aThree").innerHTML = " <h4> tehtävä 3: oot tyhmä oikee vastaus oli " + answer3 + "</h4>";
     }
 }
-
-    function calc4(){
+ function calc4(){
 
     let rightAnswer4 = document.getElementById("answer4").value;
     if (rightAnswer4 == answer4) {
-        document.getElementById("aFour").innerHTML = "KOMEE JA HYVÄ LASKEEN"
+        document.getElementById("aFour").innerHTML =  " <h4> tehtävä 4: KOMEE JA HYVÄ LASKEEN </h4>"
     } else {
-        document.getElementById("aFour").innerHTML = "oot tyhmä oikee vastaus oli " + answer4;   
+        document.getElementById("aFour").innerHTML =  " <h4> tehtävä 4: oot tyhmä oikee vastaus oli " + answer4 + "</h4>";  
     }
 }
-    
     function calc5(){
     let rightAnswer5 = document.getElementById("answer5").value;
     if (rightAnswer5 == answer5) {
-        document.getElementById("aFive").innerHTML = "KOMEE JA HYVÄ LASKEEN"
+        document.getElementById("aFive").innerHTML =  " <h4> tehtävä 5: KOMEE JA HYVÄ LASKEEN </h4>"
     } else {
-        document.getElementById("aFive").innerHTML = "oot tyhmä oikee vastaus oli " + answer5;   
+        document.getElementById("aFive").innerHTML = " <h4> tehtävä 5: oot tyhmä oikee vastaus oli " + answer5 + "</h4>";   
     }
  }
+
+//document.getElementById("quizResult").innerHTML=
+
 
